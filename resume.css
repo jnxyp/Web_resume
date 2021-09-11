@@ -60,6 +60,7 @@ b, em {
 .block-body {
     flex-direction: column;
     margin-top: 0;
+    flex-grow: 1;
 }
 
 .skill-item {
@@ -133,9 +134,7 @@ b, em {
     padding: 0;
     /*box-shadow: 0 0 20px 2px #333333;*/
 
-    /* Print friendly page size (A4) */
-    /*width: 1000px;*/
-    /*height: 1414px;*/
+
 }
 
 #left ul {
@@ -233,4 +232,32 @@ b, em {
     padding: 0;
     display: block;
     z-index: 0;
+}
+
+
+/* Printing friendly optimizations */
+@media print {
+    .resume {
+        display: block;
+    }
+
+    .skill-name, .star-rating, .hobby-item, .resume .secondary-title > div {
+        display: inline-block;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    #resume {
+        display: table;
+    }
+
+    #left, #right {
+        display: table-cell;
+    }
+
+    #left {
+        width: 300px;
+    }
 }

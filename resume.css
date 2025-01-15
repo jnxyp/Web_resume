@@ -165,10 +165,16 @@ b, em {
     margin-bottom: 0.3em;
 }
 
+#resume-subtitle {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 0.5em;
+}
+
 #resume-title {
     font-size: 35px;
     font-weight: bolder;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
     margin-bottom: 10px;
 }
 

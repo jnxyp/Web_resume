@@ -75,16 +75,6 @@ b, em {
     flex-shrink: 0;
 }
 
-.hobby-item {
-    border: 1px solid #cccccc;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-
-    margin: 3px;
-    padding: 5px 7px 5px 7px;
-}
-
 .icon-text {
     margin-left: 10px;
 }
